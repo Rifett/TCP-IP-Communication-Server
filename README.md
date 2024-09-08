@@ -56,7 +56,7 @@ To ensure server's efficiency, the following optimizations have been implemented
 For instance, if the server receives a partial message that already exceeds the maximum allowed length (e.g., a username longer than 20 characters), it immediately responds with `SERVER_SYNTAX_ERROR` without waiting for the rest of the message to arrive.
 This reduces unnecessary processing.
 - **Timeout mechanisms**: Timeout mechanisms ensure that the server does not wait indefinitely for a response.
-For example, if a robot does not respond within a predefined timeout (NORMAL_TIMEOUT or RECHARGING_TIMEOUT), the server closes the connection, freeing up resources for other clients.
+For example, if a robot does not respond within a predefined timeout (`NORMAL_TIMEOUT` or `RECHARGING_TIMEOUT`), the server closes the connection, freeing up resources for other clients.
 
 
 
