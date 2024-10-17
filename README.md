@@ -1,4 +1,4 @@
-# TCP-IP-Communication-Server
+# TCP/IP Communication Server
 
 ## Overview
 This project involves developing a multithreaded TCP/IP server for controlling remote robots. 
